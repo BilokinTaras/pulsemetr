@@ -1,0 +1,16 @@
+@import "../sass/base/variables";
+@import "../sass/base/mixins";
+* {
+  font-family: "Museo Sans Cyrl", sans-serif;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+@import "../sass/blocks/header";
+@import "../sass/blocks/promo";
+@import "../sass/blocks/buttons";
+@import "../sass/blocks/privilege";
+@import "../sass/blocks/consultation";
+@import "../sass/blocks/titles";

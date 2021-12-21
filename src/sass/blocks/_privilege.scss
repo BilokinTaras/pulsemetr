@@ -1,0 +1,45 @@
+.privilege {
+  min-height: 475px;
+  background: #f6f6f6;
+  &__head {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+    span {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      color: #0d0d0d;
+    }
+  }
+  &__content {
+    width: 958px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+  }
+  &__item {
+    width: 290px;
+    text-align: center;
+    a {
+      font-family: "MuseoModerno", sans-serif;
+      text-decoration: underline;
+      color: $main-color;
+    }
+  }
+  &__subheader {
+    padding-top: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: $header-color;
+  }
+  &__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: $header-color;
+    padding-top: 20px;
+  }
+}
